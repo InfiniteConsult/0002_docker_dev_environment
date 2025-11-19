@@ -580,7 +580,7 @@ For example, if you wanted to build the environment with a different version of 
 ```shell
 docker build --build-arg gcc15="15.1.0" \
   # ... other build args ...
-  -f Dockerfile -t biquant:latest .
+  -f Dockerfile -t dev-container:latest .
 ```
 
 This gives you full, granular control over the toolchain versions in your environment without ever needing to modify the `Dockerfile` itself.
